@@ -2,9 +2,9 @@
 
 ## AI Engineering by Chip Huyen
 
-Goes beyond tools and trends to give timeless understanding. 
-
 Roadmap for navigating Generative AI. Adapting foundational models. 
+
+Goes beyond tools and trends to give timeless understanding. 
 
 What Makes a Good Prompt
 * Clear task description
@@ -15,10 +15,10 @@ What Makes a Good Prompt
 * Break complex tasks into subtasks
 * Experiment iteratively
 
-Retrieval Augmented Generation (RAG)
+[Retrieval Augmented Generation](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) (RAG)
 * Rag tackles knowledge frozen in time and hallucations
 * Documents, databases, websites, knowledge graphs
-* Term-based methods use keyword searches
+* Term-based methods use keyword searches, BM25
 * Embedding-based methods use vectors (semantic/intent, not just keywords)
 * Chunks- breaking docs into smaller pieces
 * Indexing- organizing chunks
@@ -66,7 +66,7 @@ Evaluation Methodology
 * How do you measure AI performance
 * Define evaluation criteria, select metrics, create scoring rubrics
 * Aspects of performance to evaluate- accuracy, fluency, factual consistency- depends on application
-* Metrics- numerical to quantify, BLU score for translation, accuracy for classification, BLEU, Rouge, acuracy, precision, recall
+* Metrics- numerical to quantify, BLEU score for translation, accuracy for classification, Rouge, accuracy, precision, recall
 * Select metrics relevant to evaluation criteria and application goals
 * Scoring rubrics- guidelines for human evaluators- different performance levels with examples (especially subjective)
 * Automated (BLEU score) and AI as judge (use another AI model to evaluate output of system, scalable)
