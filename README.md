@@ -2,6 +2,8 @@
 
 ## AI Engineering by Chip Huyen
 
+Goes beyond tools and trends to give timeless understanding. 
+
 Roadmap for navigating Generative AI. Adapting foundational models. 
 
 What Makes a Good Prompt
