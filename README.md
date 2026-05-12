@@ -70,4 +70,19 @@ Evaluation Methodology
 * Automated (BLEU score) and AI as judge (use another AI model to evaluate output of system, scalable)
 * You need humans to define criteria, create rubrics, and validate that AI judge is evaluating what you want it to evaluate.
 * Factual consistency, instruction-following capability (does it do what asked to do), cost metrics- consider
-* 
+* Slide data for fine-grain understanding to avoid biases
+* Don't look at overall, average performance. Slice by different demographics, use cases, input types- identify biases and understand where system is performing well/struggling
+* Reveal hidden biases, performance disparities
+
+User-feedback for Continuous Improvement
+* Most crucial for longterm success
+* User are ultimate judges of whether AI system is useful/helpful in real world
+* Explicit feedback- direct (ratings, reviews, comments, thumbs, stars, text feedback forms)
+* Implicit- how users interact with system- click-through-rate, dwell time, task completion rates, error rates, usage patterns
+* Things you can't rack without users explicitly telling you anything
+* Click on feature a lot, correcting output, abandoning tasks
+* Preventing users from exploiting the model
+* AI systems can be vulnerable to mis-use- harmful content, bypass safety filters, exploit vulnerabilities
+* Preventative measures, monitor user behaviors for positive and negative signals
+* Ongoing cycle of feedback, analysis, improvement
+* Close loop- build, evaluate, get feedback, improve, repeat, user feedback is fuel
