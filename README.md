@@ -41,6 +41,8 @@ Inference Optimization
 * Make AI system more efficient- faster and cheaper
 * Inference- feed data in, generate ouput
 * Inference can be computational expensive, reduce latency (how long it takes model to respond)
+
+Inference Optimization- Model-level
 * Model-level optimization- changing model itself to be more efficient (reduce precision of model weights using fewer bits to represent them)
 * Model-level optimization method- Quantization, compression, attention mechanism modifications
 * There can be slight, but minimal trade off in accuracy, gains in efficiency are significant
@@ -49,13 +51,23 @@ Inference Optimization
 * Attention mechanism modifications- key to how transformers work
 * Computational intensive, modifying them, making them more efficiently can significantly speed up inference
 * Sparse attention or linear attention
+
+Inference Optimization- Service-level
 * Service-level optimizations- how you deploy and serve the model
 * Parallelism and caching are key
-* Parallelism- running inference on mutlple requests using multiple GPUs or CPUS (multiple servers)
+* Parallelism- running inference on multiple requests using multiple GPUs or CPUS (multiple servers)
 * Caching- storing results of previous computations so you don't have to re-compute if get same request
 * Prompt caching- useful for LLMs (users ask similar questions repeatedly, reduce latency and cost)
 * Speculative decoding- reduce latency- predict next words before generated, model speculates about next token
 
 Evaluation Methodology
 * How do you measure AI performance
-* Define evaluation criteria
+* Define evaluation criteria, select metrics, create scoring rubrics
+* Aspects of performance to evaluate- accuracy, fluency, factual consistency- depends on application
+* Metrics- numerical to quantify, BLU score for translation, accuracy for classification, BLEU, Rouge, acuracy, precision, recall
+* Select metrics relevant to evaluation criteria and application goals
+* Scoring rubrics- guidelines for human evaluators- different performance levels with examples (especially subjective)
+* Automated (BLEU score) and AI as judge (use another AI model to evaluate output of system, scalable)
+* You need humans to define criteria, create rubrics, and validate that AI judge is evaluating what you want it to evaluate.
+* Factual consistency, instruction-following capability (does it do what asked to do), cost metrics- consider
+* 
