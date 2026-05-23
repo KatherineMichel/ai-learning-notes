@@ -36,67 +36,16 @@ Solution
 * Wild claims about elimination of entire industries [Anthropic CEO Predicts AI Models Will Replace Software Engineers In 6-12 Months: 'I Don't Write Any Code Anymore'](https://finance.yahoo.com/news/anthropic-ceo-predicts-ai-models-233113047.html)
 * Snap, Block, Amazon, Stripe [Has the Era of the Mega-Layoff Arrived?](https://www.wsj.com/business/has-the-era-of-the-mega-layoff-arrived-928f061d)
 * AI washing, stock price goes up [Sam Altman says the quiet part out loud, confirming some companies are ‘AI washing’ by blaming unrelated layoffs on the technology](https://finance.yahoo.com/news/sam-altman-says-quiet-part-165405075.html)
-* State of the product job market in early 2026
+* Maybe jobs are being created, hiring is up for hiring people [State of the product job market in early 2026](https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-ee9)
+* Leadership: AI means more code with fewer people
+* We need to give them an answer
+* The new frame is engineering: Agentic Engineering (old wine poured into a new bottle)
+* Andej Karpathy: [There's a new kind of coding I call "vibe coding"](https://x.com/karpathy/status/1886192184808149383?lang=en)
+* Simon Willison: [What is agentic engineering?](https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/)
 
 
 <!--
-Maybe jobs aren't being
-12:20
-eliminated. Maybe they're being created.
-12:23
-Maybe it's not just hiring is up for junior developers. Hiring is up for hiring people for HR managers. Crazy world we live in.
-12:34
-And the response to this from leadership has been more code fewer people. And we
-12:42
-need to give an answer to this. We
-12:46
-need as engineering we need to give them
-12:49
-a new frame. That new frame is
-12:52
-engineering.
-12:53
-But a new engineering poured into old
-12:56
-wine poured into a new bottle. Agentic
-12:59
-engineering. Let's bring back for reals
-13:02
-engineering.
-13:03
-Vibe coding created around 14 15 minutes
-13:06
-uh minutes ago
-13:09
-months ago uh by Carpati and then he's
-13:12
-like okay clean up. What I meant was
-13:14
-agentic engineering. So he coined the
-13:16
-phrase a few months ago and it seems to
-13:19
-have caught on a little bit. My guy
-13:21
-Simon Wilson had been talking about it.
-13:23
-He started adopting that phrase and
-13:25
-Simon's actually writing a book on this
-13:27
-where he's doing kind of a taxonomy of
-13:29
-these things. Addi Osmani wrote a blog
-13:32
-post about uh Gentic Engineering. And as
-13:35
-I tell you these blah blah wrote a blah
-13:38
-blah in your mind you should be thinking
-13:40
-it's entering the hype cycle. I should
-13:42
-put this on my LinkedIn as a global
+He started adopting that phrase and Simon's actually writing a book on this where he's doing kind of a taxonomy of these things. Addi Osmani wrote a blog post about uh Gentic Engineering. And as I tell you these blah blah wrote a blah blah in your mind you should be thinking it's entering the hype cycle. I should put this on my LinkedIn as a global
 13:45
 recognized expert and this thing that
 13:47
