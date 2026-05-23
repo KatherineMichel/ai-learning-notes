@@ -4,6 +4,14 @@
 * Andrew Ng's [The Batch Newsletter](https://www.deeplearning.ai/the-batch)
 * Ed Zitron newsletters
 
+<!--
+https://engineering.block.xyz/blog/protecting-our-systems-with-intelligence
+https://block.xyz/inside/from-hierarchy-to-intelligence
+https://x.com/jack/status/1979497865006272549
+https://x.com/karpathy/status/1979644538185752935
+https://github.com/torvalds/AudioNoise
+-->
+
 ## Mythos
 
 ## Deep Learning AI and Jet Brains Collaboration
@@ -42,183 +50,67 @@ Solution
 * The new frame is engineering: Agentic Engineering (old wine poured into a new bottle)
 * Andej Karpathy: [There's a new kind of coding I call "vibe coding"](https://x.com/karpathy/status/1886192184808149383?lang=en)
 * Simon Willison: [What is agentic engineering?](https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/)
+* Simon Willison: creating [Agentic Engineering taxonomy](https://simonwillison.net/guides/agentic-engineering-patterns/) in book
+* "Vibe coding isn't engineering, it's hoping" Addy Osmani: [Agentic Engineering](https://addyosmani.com/blog/agentic-engineering/)
+* Hype cycle
+* Ryan Lopopolo: [Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/)
 
 
 <!--
-He started adopting that phrase and Simon's actually writing a book on this where he's doing kind of a taxonomy of these things. Addi Osmani wrote a blog post about uh Gentic Engineering. And as I tell you these blah blah wrote a blah blah in your mind you should be thinking it's entering the hype cycle. I should put this on my LinkedIn as a global
-13:45
-recognized expert and this thing that
-13:47
-existed for two months. And then Addie
-13:50
-has this wonderful line about vibe
-13:52
-coding. Vive coding is an engineer. It's
-13:54
-just hoping
-13:57
-the one that influenced me the most. I
-13:59
-wonder if any of you saw this one from
-14:01
-the open AI team. Harness engineering
-14:04
-has so many like really piercing
-14:06
-thoughts about the jump from software
-14:09
-engineering up to uh agentic engineering
-14:14
-and redefining the role to be about
-14:16
-systems and scaffolding and getting more
-14:18
-leverage from the humans from the
-14:21
-humans. There will be humans. Good news.
-14:24
-And in the old mode, engineers built the
-14:27
-thing. And in this harness engineering,
-14:29
-open AI, we build the thing that builds
-14:33
-the thing. That will be our value ad. If
-14:36
-you hit a problem like they had AI slop
-14:38
-Friday where they would fix all the
-14:40
-stuff. Don't do that. Go fix the thing
-14:43
-that caused the problem. Always be
-14:46
-making the system better. And the human
-14:49
-will always be the bottleneck. But don't
-14:52
-eliminate the human, augment the human.
-14:55
-Simon talks about the dark factory
-14:57
-pattern. You can turn the lights off in
-14:59
-the factory because there ain't no
-15:01
-humans in the factory. The humans are on
-15:03
-the outside building the stuff in the
-15:05
-factory to run the factory.
-15:09
-Grady rightly pushed back, isn't this
-15:11
-just software engineering?
-15:13
-And if you go look at the classic
+Harness engineering has so many like really piercing thoughts about the jump from software engineering up to uh agentic engineering and redefining the role to be about systems and scaffolding and getting more leverage from the humans from the humans. There will be humans. Good news.
+And in the old mode, engineers built the thing. And in this harness engineering, open AI, we build the thing that builds the thing. That will be our value ad. If you hit a problem like they had AI slop Friday where they would fix all the stuff. Don't do that. Go fix the thing that caused the problem. Always be making the system better. And the human will always be the bottleneck. But don't eliminate the human, augment the human. Simon talks about the dark factory pattern. You can turn the lights off in the factory because there ain't no humans in the factory. The humans are on the outside building the stuff in the factory to run the factory. Grady rightly pushed back, isn't this just software engineering? And if you go look at the classic
 15:16
 definitions like Dave Farley from modern
-15:18
 software engineering, coding is just
-15:21
 again it's just one of the parts of
-15:23
 engineering and Grady kind of leans into
-15:26
 this in this interview really talks
-15:28
 about uh coding was never really the big
-15:31
 thing. I really encourage you this
-15:33
 really put joy in my heart listening to
-15:35
 this and he went past we went backwards
-15:38
 past Archimedes. IBM wrote about this
-15:41
 very topic and reinforced something
-15:44
 Grady really talked about in the
-15:46
 classics from the first agent gold or
-15:49
 first golden age. Go back to first
-15:52
 principles. You want to be valuable? Go
-15:54
 back to first principles and master
-15:56
 systems design. So just to recap when we
-16:00
 say aentic engineering what do we mean?
-16:03
 You build the thing that builds the
-16:05
 thing. You're always trying to not make
-16:08
 the human the bottleneck. You're trying
-16:11
 to think of things like the dark track,
-16:12
 but most of all just blah blah blah blah
-16:14
 engineering. Let's bring back the
-16:17
 discipline of engineering in your
-16:19
 organization or even better systems
-16:21
 design. So, what does agentic
-16:24
 engineering mean in practice?
-16:28
 It's just a big bag of words. Kai has
-16:31
 the funniest videos. And just before
-16:33
 this, he was playing the role of the CEO
-16:36
 saying blah blah blah blah authentic
-16:37
 engineering blah blah blah blah. And
-16:40
 this is the engineers like it's just
-16:42
 they're making this up. As I mentioned,
-16:45
 Simon is doing he's writing a book in
-16:47
 front of you. Highly encourage you to
-16:49
 follow Simon. He's a hardcore developer
-16:52
 and so he's one of us.
-16:55
 Meta video from a meta staff engineer
-16:57
 did a little bit of a taxonomy. All five
-17:00
 of these points are fantastic. What I
-17:02
 what you'll see in the next couple of
-17:04
 slides there are whole disciplines there
-17:07
 have been talks on whole disciplines
-17:09
 context engineering from unboxed that
-17:12
 can be part of this broader thing which
-17:15
 is software engineering in the world of
-17:17
 agents the new stack had a a good
-17:20
 article with a taxonomy on it and this
-17:23
 is kind of for me the transition we want
-17:26
 engineering we want software engineering
 17:29
 for agents it's a new thing
