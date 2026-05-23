@@ -54,155 +54,51 @@ Solution
 * "Vibe coding isn't engineering, it's hoping" Addy Osmani: [Agentic Engineering](https://addyosmani.com/blog/agentic-engineering/)
 * Hype cycle
 * Ryan Lopopolo: [Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/)
+* Redefining the role of the engineer: "the lack of hands-on human coding introduced a different kind of engineering work focused on systems, scaffolding, and leverage (froms humans)
+* Harness
+* Humans on the outside build the stuff to run the factory; the factory runs itself [Simon Willison says the 'dark factory' is the next big thing in AI](https://www.businessinsider.com/simon-willison-dark-factory-ai-2026-4)
+* Harness engineering, agentic engineering- our value add is that we build the thing that builds the thing. Don't fix AI slop. Fix the thing that caused the problem. Make the system better. The human will always be the bottleneck. Don't eliminate the human. Augment the human. 
+* Isn't this just SWE? [What is Software Engineering?](https://productdeveloper.net/modern-software-engineering/)
+* Dave Farley's classic definition from Modern Software Engineering
+* To be valuable- go back to first principles, master system design
+* Grady went back to Archimedes, classics from the first golden age, IBM wrote about this. 
 
 
 <!--
-Harness engineering has so many like really piercing thoughts about the jump from software engineering up to uh agentic engineering and redefining the role to be about systems and scaffolding and getting more leverage from the humans from the humans. There will be humans. Good news.
-And in the old mode, engineers built the thing. And in this harness engineering, open AI, we build the thing that builds the thing. That will be our value ad. If you hit a problem like they had AI slop Friday where they would fix all the stuff. Don't do that. Go fix the thing that caused the problem. Always be making the system better. And the human will always be the bottleneck. But don't eliminate the human, augment the human. Simon talks about the dark factory pattern. You can turn the lights off in the factory because there ain't no humans in the factory. The humans are on the outside building the stuff in the factory to run the factory. Grady rightly pushed back, isn't this just software engineering? And if you go look at the classic
-15:16
-definitions like Dave Farley from modern
-software engineering, coding is just
-again it's just one of the parts of
-engineering and Grady kind of leans into
-this in this interview really talks
-about uh coding was never really the big
-thing. I really encourage you this
-really put joy in my heart listening to
-this and he went past we went backwards
-past Archimedes. IBM wrote about this
-very topic and reinforced something
-Grady really talked about in the
-classics from the first agent gold or
-first golden age. Go back to first
-principles. You want to be valuable? Go
-back to first principles and master
-systems design. So just to recap when we
-say aentic engineering what do we mean?
-You build the thing that builds the
-thing. You're always trying to not make
-the human the bottleneck. You're trying
-to think of things like the dark track,
-but most of all just blah blah blah blah
-engineering. Let's bring back the
-discipline of engineering in your
-organization or even better systems
-design. So, what does agentic
-engineering mean in practice?
-It's just a big bag of words. Kai has
-the funniest videos. And just before
-this, he was playing the role of the CEO
-saying blah blah blah blah authentic
-engineering blah blah blah blah. And
-this is the engineers like it's just
-they're making this up. As I mentioned,
-Simon is doing he's writing a book in
-front of you. Highly encourage you to
-follow Simon. He's a hardcore developer
-and so he's one of us.
-Meta video from a meta staff engineer
-did a little bit of a taxonomy. All five
-of these points are fantastic. What I
-what you'll see in the next couple of
-slides there are whole disciplines there
-have been talks on whole disciplines
-context engineering from unboxed that
-can be part of this broader thing which
-is software engineering in the world of
-agents the new stack had a a good
-article with a taxonomy on it and this
-is kind of for me the transition we want
-engineering we want software engineering
-17:29
-for agents it's a new thing
-17:33
-in practice. I'm going to cover a a
-17:35
-number of these things. Some of them
-17:37
-might be really interesting to you. I
-17:39
-hope this one's interesting to you. We
-17:42
-just did a course with deep learning, my
-17:44
-colleagues Zena and Costia,
-17:47
-uh, and with Isabelle, and we had such a
-17:49
-fun time, put a lot of work into it.
-17:52
-Spec is the way for the human to steer
-17:54
-the work and to get all of the
-17:57
-stakeholders aligned.
-17:59
+You're trying to think of things like the dark track, but most of all just blah blah blah blah engineering. Let's bring back the discipline of engineering in your organization or even better systems design. So, what does agentic engineering mean in practice? It's just a big bag of words. Kai has the funniest videos. And just before this, he was playing the role of the CEO saying blah blah blah blah authentic engineering blah blah blah blah. And this is the engineers like it's just they're making this up. As I mentioned, Simon is doing he's writing a book in front of you. Highly encourage you to follow Simon. He's a hardcore developer and so he's one of us. Meta video from a meta staff engineer did a little bit of a taxonomy. All five of these points are fantastic. What I what you'll see in the next couple of slides there are whole disciplines there have been talks on whole disciplines context engineering from unboxed that can be part of this broader thing which is software engineering in the world of agents the new stack had a a good article with a taxonomy on it and this is kind of for me the transition we want engineering we want software engineering for agents it's a new thing in practice. I'm going to cover a a number of these things. Some of them might be really interesting to you. I hope this one's interesting to you. We just did a course with deep learning, my colleagues Zena and Costia, uh, and with Isabelle, and we had such a fun time, put a lot of work into it. Spec is the way for the human to steer the work and to get all of the stakeholders aligned.
 I would love to hear your feedback on
-18:01
 this course. Then
-18:04
 what is good?
-18:08
 Is your agent good? Is your code good?
-18:11
 If the answer is button go clicky, it
-18:15
 ain't engineering. So the very first
-18:18
 thing we got to get good at is evals.
-18:22
 Did it generate good code in the right
-18:24
 budget with the number of turns blah
-18:26
 blah blah. In the talk just before from
-18:29
 Sonar, Tom showed how all these models
-18:32
 are different and they have different
-18:33
 characteristics that change over time.
-18:35
 That's going to be your job when a new
-18:38
 model comes out. How does it perform?
-18:40
 And so we're actually going to need data
-18:42
 scientists doing actual work again
-18:44
 because you don't want the LLM to be the
-18:46
 judge all the time. Harness engineering
-18:49
 is a fascinating one to me. a couple of
-18:52
 talks here about this and this is from
-18:54
 lang chain a good Python company and the
-18:58
 thing can you read it is that contrast
-19:00
 okay
-19:03
 if you don't own your harness you don't
-19:06
 own your memory bold provocative
-19:09
 statement
-19:10
 tooling this is another fascinating
-19:13
 topic that I hope but I predict in the
-19:16
 next six months will get on your radar
-19:18
 and claude are talking about code mode
-19:21
 uh and Cloudflare and others, the agent
-19:25
 needs to run a tool. And so at that
-19:29
 moment, it generates some code and runs
 19:33
 it in a secure sandbox, exactly the code
@@ -390,14 +286,7 @@ And then finally, leadership and
 culture. I know this is kind of an
 23:38
 unusual one from an engineering
-23:40
-perspective, but some of you are
-23:43
-engineering leads, team leads, some of
-23:45
-you are CTOs.
-23:47
-I sat at dinner last night with Raphael.
+perspective, but some of you are engineering leads, team leads, some of you are CTOs. I sat at dinner last night with Raphael.
 23:49
 Fantastic conversation. Got to hear
 23:52
@@ -482,97 +371,51 @@ getting great bold new things done
 and from the impractice on this get back
 25:43
 to a discipline engineering is an actual
-25:46
 discipline if you watch Grady's talk
-25:49
 you'll see that it goes back past
-25:52
 Archimedes. There are rules. It's a
-25:54
 science. It's a practice. You can learn
-25:56
 it and master it. And again, engineering
-26:00
 builds the thing that builds the thing.
-26:02
 Your stakeholders will understand that.
-26:05
 Grady asked me to give a call to action
-26:07
 to you. So Grady's cohort did unified
-26:13
 modeling language did design patterns
-26:17
 kind of built the field of modern
-26:19
 software engineering.
-26:22
 He knows there is a next thing called
-26:25
 agentic patterns
-26:27
 and he wants one of you in the audience
-26:31
 to be the one that gets the ball rolling
-26:33
 and helps us all figure out this
-26:35
 discipline of agentic design patterns,
-26:38
 agentic engineering
-26:41
 and the folks at deep learning have been
-26:43
 so wonderful at this conference. the
-26:46
 folks at deep learn like being the host
-26:50
 for two days like Mima has been all the
-26:53
 helpers and in fact I should have done
-26:55
 that at the start please they're super
-26:58
 smart but they're also wonderful people
-27:00
 a round of applause for deep learning
-27:08
 maybe deep learning is the home where we
-27:11
 all come together and create this new
-27:14
 discipline called agentic engineering
-27:16
 two best words in any presentation.
-27:21
 This is from the last two slides of
-27:23
 Grady's uh history of software
-27:26
 engineering talk. You write code, you
-27:29
 are engineers, but that code actually
-27:31
 tells a story and you're the
-27:33
 storytellers. And we are in a moment.
-27:37
 We're in a weird moment. We're in a
-27:39
 moment that needs some storytelling,
-27:41
 some message, and some messengers. And
-27:44
 that's you.
-27:46
 And this best part, Simon did a sign off
-27:48
 of a podcast. He was asked, "What's left
-27:51
 for the humans?" So much stuff. He said
-27:54
 it in such a wonderful, hopeful,
-27:57
 actionable way. 
 Find the joy in all that you do. Find the purpose in all that you do.
 -->
