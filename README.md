@@ -101,55 +101,33 @@ The New Stack Article Taxonomy
 * Measurement
 * Integrations
 
+Transition
+* Engineering
+* Software Engineering for Agents
+
+Tools
+* [Spec-Driven Development with Coding Agents](https://www.deeplearning.ai/courses/spec-driven-development-with-coding-agents)
+* Is your agent good? Is your code good? The first thing we need to get good at is Evals. Did it generate good code in the right budget with the number of turns? Models have different characteristics and change over time. It will be data scientists job when new model comes out to check how it performs. We don't want the LLM to be the judge all the time. [The Revenge of the Data Scientist by Hamel Husain PyAI 2026](https://www.youtube.com/watch?v=lA4MfpgF91Y)
+* Harness engineering- if you don't own your harness, you don't own your memory [Your Harness, Your Memory](https://www.langchain.com/blog/your-harness-your-memory)
+
 <!--
+PyAI
+Lang Chain
+
 The creator of OpenClaw: "I ship code I don't read"
 https://www.youtube.com/watch?v=8lF7HmQ_RgY
 
 You're trying to think of things like the dark track
 
-All five of these points are fantastic. What I what you'll see in the next couple of slides there are whole disciplines there have been talks on whole disciplines context engineering from unboxed that can be part of this broader thing which is software engineering in the world of agents the new stack had a a good article with a taxonomy on it and this is kind of for me the transition we want engineering we want software engineering for agents it's a new thing in practice. I'm going to cover a a number of these things. Some of them might be really interesting to you. I hope this one's interesting to you. We just did a course with deep learning, my colleagues Zena and Costia, uh, and with Isabelle, and we had such a fun time, put a lot of work into it. Spec is the way for the human to steer the work and to get all of the stakeholders aligned.
-I would love to hear your feedback on
-this course. Then
-what is good?
-Is your agent good? Is your code good?
-If the answer is button go clicky, it
-ain't engineering. So the very first
-thing we got to get good at is evals.
-Did it generate good code in the right
-budget with the number of turns blah
-blah blah. In the talk just before from
-Sonar, Tom showed how all these models
-are different and they have different
-characteristics that change over time.
-That's going to be your job when a new
-model comes out. How does it perform?
-And so we're actually going to need data
-scientists doing actual work again
-because you don't want the LLM to be the
-judge all the time. Harness engineering
-is a fascinating one to me. a couple of
-talks here about this and this is from
-lang chain a good Python company and the
-thing can you read it is that contrast
-okay
-if you don't own your harness you don't
-own your memory bold provocative
-statement
+Tom from Sonar
+
 tooling this is another fascinating
 topic that I hope but I predict in the
 next six months will get on your radar
 and claude are talking about code mode
 uh and Cloudflare and others, the agent
 needs to run a tool. And so at that
-moment, it generates some code and runs
-19:33
-it in a secure sandbox, exactly the code
-19:36
-that it needs, not said and Grep and
-19:39
-walking around until it figures out the
-19:41
-problem. And my friends at paidandic
+moment, it generates some code and runs it in a secure sandbox, exactly the code that it needs, not said and Grep and walking around until it figures out the problem. And my friends at paidandic
 19:43
 have a rustbased subset of Python called
 19:48
@@ -221,23 +199,7 @@ want to have parallel sub aents and
 21:23
 highly specialized sub aents and really
 21:26
-good context engineering. You might
-21:28
-reorganize your code around some
-21:30
-different principles. Principles called
-21:32
-Ojic engineering
-21:35
-QA agents. This is from the um the
-21:39
-harness engineering and this one really
-21:42
-popped for me that as humans kind of
-21:45
-become the bottleneck. We we want to
-21:47
-speed them up a little bit. So we're
+good context engineering. You might reorganize your code around some different principles. Principles called Ojic engineering QA agents. This is from the um the harness engineering and this one really popped for me that as humans kind of become the bottleneck. We we want to speed them up a little bit. So we're
 21:48
 going to make QA agents.
 21:52
