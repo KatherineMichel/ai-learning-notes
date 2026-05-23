@@ -5,6 +5,9 @@
 * Ed Zitron newsletters
 
 <!--
+Agentic systems diagrams
+https://www.ibm.com/think/architectures/patterns/agentic-ai
+
 https://engineering.block.xyz/blog/protecting-our-systems-with-intelligence
 https://block.xyz/inside/from-hierarchy-to-intelligence
 https://x.com/jack/status/1979497865006272549
@@ -60,12 +63,51 @@ Solution
 * Harness engineering, agentic engineering- our value add is that we build the thing that builds the thing. Don't fix AI slop. Fix the thing that caused the problem. Make the system better. The human will always be the bottleneck. Don't eliminate the human. Augment the human. 
 * Isn't this just SWE? [What is Software Engineering?](https://productdeveloper.net/modern-software-engineering/)
 * Dave Farley's classic definition from Modern Software Engineering
+* Grady went back to Archimedes, classics from the first golden age
+* IBM: How Organizations Can Adopt Agentic Engineering 
 * To be valuable- go back to first principles, master system design
-* Grady went back to Archimedes, classics from the first golden age, IBM wrote about this. 
 
+Recap: What is Agentic Engineering?
+* Build the thing that builds the thing
+* Alleviate the human bottleneck
+* The dark factory pattern
+* A return to the discipline of engineering
+* Even better: system design
+
+Agentic Engineering in practice:
+* [AI CEO vs Engineer (2026)](https://www.youtube.com/watch?v=WAUnmQt2Z7Y)
+* Simon Willison's [Agentic Agentig Engineering Patterns](https://simonwillison.net/guides/agentic-engineering-patterns/)
+* Taxonomy: [What is Agentic AI Engineering (Meta Staff Engineer Explains)](https://www.youtube.com/watch?v=FqPwHHrN1bg)
+* [The hidden technical debt of agentic engineering](https://thenewstack.io/hidden-agentic-technical-debt/)
+* [Grady Booch: History of Software Engineering](https://www.youtube.com/watch?v=QUz10Z1AfLc)
+
+Meta Staff Engineer- Pillars of Agentic Engineering
+* Context Engineer
+* Agentic Validation
+* Agentic Tooling
+* Agentic Codebases
+* Compound Engineering
+
+The New Stack Article Taxonomy
+* [The hidden technical debt of agentic engineering](https://thenewstack.io/hidden-agentic-technical-debt/)
+* Google's 2015 [“Hidden Technical Debt in Machine Learning Systems.” ](https://proceedings.neurips.cc/paper_files/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf?utm_source=the+new+stack&utm_medium=referral&utm_content=inline-mention&utm_campaign=tns+platform)
+* See also: 
+* Agents
+* Agent Registry
+* Context Lake
+* Human-in-the-Loop
+* Orchestration
+* Governance
+* Measurement
+* Integrations
 
 <!--
-You're trying to think of things like the dark track, but most of all just blah blah blah blah engineering. Let's bring back the discipline of engineering in your organization or even better systems design. So, what does agentic engineering mean in practice? It's just a big bag of words. Kai has the funniest videos. And just before this, he was playing the role of the CEO saying blah blah blah blah authentic engineering blah blah blah blah. And this is the engineers like it's just they're making this up. As I mentioned, Simon is doing he's writing a book in front of you. Highly encourage you to follow Simon. He's a hardcore developer and so he's one of us. Meta video from a meta staff engineer did a little bit of a taxonomy. All five of these points are fantastic. What I what you'll see in the next couple of slides there are whole disciplines there have been talks on whole disciplines context engineering from unboxed that can be part of this broader thing which is software engineering in the world of agents the new stack had a a good article with a taxonomy on it and this is kind of for me the transition we want engineering we want software engineering for agents it's a new thing in practice. I'm going to cover a a number of these things. Some of them might be really interesting to you. I hope this one's interesting to you. We just did a course with deep learning, my colleagues Zena and Costia, uh, and with Isabelle, and we had such a fun time, put a lot of work into it. Spec is the way for the human to steer the work and to get all of the stakeholders aligned.
+The creator of OpenClaw: "I ship code I don't read"
+https://www.youtube.com/watch?v=8lF7HmQ_RgY
+
+You're trying to think of things like the dark track
+
+All five of these points are fantastic. What I what you'll see in the next couple of slides there are whole disciplines there have been talks on whole disciplines context engineering from unboxed that can be part of this broader thing which is software engineering in the world of agents the new stack had a a good article with a taxonomy on it and this is kind of for me the transition we want engineering we want software engineering for agents it's a new thing in practice. I'm going to cover a a number of these things. Some of them might be really interesting to you. I hope this one's interesting to you. We just did a course with deep learning, my colleagues Zena and Costia, uh, and with Isabelle, and we had such a fun time, put a lot of work into it. Spec is the way for the human to steer the work and to get all of the stakeholders aligned.
 I would love to hear your feedback on
 this course. Then
 what is good?
