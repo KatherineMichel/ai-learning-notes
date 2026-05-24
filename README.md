@@ -131,13 +131,14 @@ Tools
 * "Get a browser or the DevTools protocol into the agent so it can collect the instrumentation itself as it deems fit. And that kind of integration with the outside world can only come from you. I predict you're going to be writing some code as your organizations need to glue all these things together. You're building the thing that builds the thing."
 * Observability [AI Observability Platform for LLMs, Apps & AI Agents](https://pydantic.dev/logfire)
 * General system observability, AI observability, probably need something that can do both
-* Orchestration
+* Orchestration (Grady Booch)- architecture, gluing big system together, system design principles
+* Context engineering, Unbox- Brandon https://www.lat.md/
 
 
 <!--
-And Grady asked me to put in a line on orchestration about remember your architecture gluing this big big system together. Have some system design principles in it and context engineering. This is from my friends at um uh in Python. But for a better point on this, go see Unbox that uh Brandon gave one of the best presentations that I saw in the last couple of days. Some really great thinking out there from them and from other people. This is going to be such a fascinating field. And then finally, leadership and culture. 
-
 Raphael. 
+
+Leadership and culture. 
 
 You're going to have to manage up to your stakeholders, but really you're going to have to manage down. 
 Fobbo, fear of being obsolete. 
