@@ -113,145 +113,33 @@ Tools
 * [Spec-Driven Development with Coding Agents](https://www.deeplearning.ai/courses/spec-driven-development-with-coding-agents)
 * Is your agent good? Is your code good? The first thing we need to get good at is Evals. Did it generate good code in the right budget with the number of turns? Models have different characteristics and change over time. It will be data scientists job when new model comes out to check how it performs. We don't want the LLM to be the judge all the time. [The Revenge of the Data Scientist by Hamel Husain PyAI 2026](https://www.youtube.com/watch?v=lA4MfpgF91Y)
 * Harness engineering- if you don't own your harness, you don't own your memory [Your Harness, Your Memory](https://www.langchain.com/blog/your-harness-your-memory)
+* Anthropic, Claude, Cloudflare: [Code Mode: the better way to use MCP](https://blog.cloudflare.com/code-mode/)
+* [Running Pydantic’s Monty Rust sandboxed Python subset in WebAssembly](https://simonwillison.net/2026/Feb/6/pydantic-monty/)
 
 <!--
-Paige
-Marina
+the agent needs to run a tool. And so at that moment, it generates some code and runs it in a secure sandbox, exactly the code that it needs, not said and Grep and walking around until it figures out the problem. 
 
-The creator of OpenClaw: "I ship code I don't read"
-https://www.youtube.com/watch?v=8lF7HmQ_RgY
+PyDantic- rust-based subset of Python called Monty
 
-You're trying to think of things like the dark track
+And my friends at paidandic have a rustbased subset of Python called Monty of course for running tool code in uh sandboxes at very high latency or low latency high lating in several of the uh podcasts like Lenny's podcast that Simon was on. 
 
-Tom from Sonar
+Red green testing is one of those things we as engineers know about. Red green testing, we just don't do it because we can get the button to go clicky without writing a test. If you will write a broken test as the first step in your agent's work, the as he said, the agent will start to learn the way you like to write tests and will mimic your testing style, which is super cool. And then you've kind of defined success. What is green? And it instead of wandering around trying to figure out how to please you, it knows exactly how to please you. As he says, a fantastic fit for coding agents. This one is fascinating for me. Uh I'm going to ask this in a vague way to get a lot of hands to raise. Raise your hand if you work on a big old codebase. I'll go with 20%. We're jet brains. We're Intelligj. We've been 25 years of this stuff. We got a big old code base. And as we're learning, modularity looks a little bit different when you want to have parallel sub aents and highly specialized sub aents and really good context engineering. You might reorganize your code around some different principles. Principles called Ojic engineering QA agents. This is from the um the harness engineering and this one really popped for me that as humans kind of become the bottleneck. We we want to speed them up a little bit. So we're going to make QA agents. Maybe they don't do all the work, they just kind of prep the work or something like that. But the secret is to move more capabilities into the agent. try and scan the last paragraph real quick. Get a browser or the DevTools protocol into the agent so it can collect the instrumentation itself as it deems fit. And that kind of integration with the outside world can only come from you. I predict you're going to be writing some code as your organizations need to glue all these things together. You're building the thing that builds the thing. And I think that stuff is really interesting. Observability. Another topic that we hear a lot about here. Uh Pyantic says, you know, you got general system observability. We all know about that. We got AI observability. We're all learning about that. You probably need something that can do both. Orchestration is one that gets talked about. There are probably 500 Silicon Valley startups in series X of their funding. And Grady asked me to put in a line on orchestration about remember your architecture gluing this big big system together. Have some system design principles in it and context engineering. This is from my friends at um uh in Python. But for a better point on this, go see Unbox that uh Brandon gave one of the best presentations that I saw in the last couple of days. Some really great thinking out there from them and from other people. This is going to be such a fascinating field. And then finally, leadership and culture. I know this is kind of an unusual one from an engineering perspective, but some of you are engineering leads, team leads, some of you are CTOs. I sat at dinner last night with Raphael. Fantastic conversation. Got to hear firsthand about culture on all of this. You're going to have to manage up to your stakeholders, but really you're going to have to manage down. Fobbo, fear of being obsolete. Another thing that entered my vocabulary this month. Your folks are worried. That was a dramatic effect. Your folks are worried. You're a leader. You have to get them going in the right direction, but you have to be honest and authentic.
 
-tooling this is another fascinating topic that I hope but I predict in the next six months will get on your radar and claude are talking about code mode uh and Cloudflare and others, the agent needs to run a tool. And so at that moment, it generates some code and runs it in a secure sandbox, exactly the code that it needs, not said and Grep and walking around until it figures out the problem. And my friends at paidandic have a rustbased subset of Python called Monty of course for running tool code in uh sandboxes at very high latency or low latency high lating in several of the uh podcasts like Lenny's podcast that Simon was on. Red green testing is one of those things we as engineers know about. Red green testing, we just don't do it because we can get the button to go clicky without writing a test. If you will write a broken test as the first step in your agent's work, the as he said, the agent will start to learn the way you like to write tests and will mimic your testing style, which is super cool. And then you've kind of defined success. What is green? And it instead of wandering around trying to figure out how to please you, it knows exactly how to please you. As he says, a fantastic fit for coding agents. This one is fascinating for me. Uh I'm going to ask this in a vague way to get a lot of hands to raise. Raise your hand if you work on a big old codebase. I'll go with 20%. We're jet brains. We're Intelligj. We've been 25 years of this stuff. We got a big old code base. And as we're learning, modularity looks a little bit different when you want to have parallel sub aents and highly specialized sub aents and really good context engineering. You might reorganize your code around some different principles. Principles called Ojic engineering QA agents. This is from the um the harness engineering and this one really popped for me that as humans kind of become the bottleneck. We we want to speed them up a little bit. So we're going to make QA agents. Maybe they don't do all the work, they just kind of prep the work or something like that. But the secret is to move more capabilities into the agent. try and scan the last paragraph real quick. Get a browser or the DevTools protocol into the agent so it can collect the instrumentation itself as it deems fit. And that kind of integration with the outside world can only come from you. I predict you're going to be writing some code as your organizations need to glue all these things together. You're building the thing that builds the thing. And I think that stuff is really interesting. Observability. Another topic that we hear a lot about here. Uh Pyantic says, you know, you got general system observability. We all know about that. We got AI observability. We're all learning about that. You probably need something that can do both. Orchestration is one that gets talked about. There are probably 500 Silicon Valley startups in series X of their funding. And Grady asked me to put in a line on orchestration about remember your architecture gluing this big big system together. Have some system design principles in it and context engineering. This is from my friends at um uh in Python. But for a better point on this, go see Unbox that uh Brandon gave one of the best presentations that I saw in the last
-23:28
-couple of days. Some really great
-23:30
-thinking out there from them and from
-23:32
-other people. This is going to be such a
-23:33
-fascinating field.
-23:36
-And then finally, leadership and
-23:37
-culture. I know this is kind of an
-23:38
-unusual one from an engineering
-perspective, but some of you are engineering leads, team leads, some of you are CTOs. I sat at dinner last night with Raphael.
-23:49
-Fantastic conversation. Got to hear
-23:52
-firsthand about culture on all of this.
-23:55
-You're going to have to manage up to
-23:58
-your stakeholders, but really you're
-24:00
-going to have to manage down. Fobbo,
-24:03
-fear of being obsolete. Another thing
-24:05
-that entered my vocabulary this month.
-24:07
-Your folks are worried.
-24:10
-That was a dramatic effect. Your folks
-24:13
-are worried. You're a leader. You have
-24:16
-to get them going in the right
-24:18
-direction, but you have to be honest and
-24:20
-authentic.
-24:23
-I said CTA with a little bit of a twist.
-24:26
-It's actually call to arms, not call to
-24:29
-action. I want us in this room in the
-24:33
-Q&A afterwards to take ownership of
-24:36
-something.
-24:38
-Again, leadership thinks this is about
-24:41
-profit margin margining the old things,
-24:47
-whereas we need to get them shifted to
-24:49
-something else. That something else
-24:53
-is a little bit on us. We are the ones
-24:57
-they listen to. Most of you have
-25:00
-probably seen this pattern over and
-25:01
-over. They're good at what they do, but
-25:04
-they know they can't do your job, and so
-25:06
-they listen to you. Let's get them a
-25:08
-better frame. Let's get them back to
-25:10
-engineering. And so the message needs to
-25:12
-be something that transmits well that we
-25:16
-agree and talk about instead of vibe
-25:19
-coding. we should be doing agentic
-25:22
-engineering and then they will start to
-25:24
-see it mentioning everywhere and then
-25:26
-they'll start to believe and we'll get
-25:29
-them off of automating the current and
-25:32
-replacing the current workforce and over
-25:34
-to innovation augmenting the humans
-25:36
-getting great bold new things done
-25:40
-and from the impractice on this get back
-25:43
-to a discipline engineering is an actual
-discipline if you watch Grady's talk
-you'll see that it goes back past
-Archimedes. There are rules. It's a
-science. It's a practice. You can learn
-it and master it. And again, engineering
-builds the thing that builds the thing.
-Your stakeholders will understand that.
-Grady asked me to give a call to action
-to you. So Grady's cohort did unified
-modeling language did design patterns
-kind of built the field of modern
-software engineering.
-He knows there is a next thing called
-agentic patterns
-and he wants one of you in the audience
-to be the one that gets the ball rolling
-and helps us all figure out this
-discipline of agentic design patterns,
-agentic engineering
-and the folks at deep learning have been
-so wonderful at this conference. the
-folks at deep learn like being the host
-for two days like Mima has been all the
-helpers and in fact I should have done
-that at the start please they're super
-smart but they're also wonderful people
-a round of applause for deep learning
+
+Vibe coding -> Agentic Engineering
+Stop automating and replacing the current workforce
+Inovate and augment the humans
+Get bold new things done
+Get back to the practice, dispipline of engineering
+Engineering builds the things that build the thing
+There are rules. It's a science. It's a practice. You can learn it and master it. 
+Grady's cohort- UML, design patterns, build the field of modern software engineering
+Grady knows there is a next thing called agentic patterns. Wants someone in audience to figure it out. 
+Discpline of agentic design patterns. 
+
+
+
+Mima
 maybe deep learning is the home where we
 all come together and create this new
 discipline called agentic engineering
@@ -266,19 +154,28 @@ We're in a weird moment. We're in a
 moment that needs some storytelling,
 some message, and some messengers. And
 that's you.
-And this best part, Simon did a sign off
-of a podcast. He was asked, "What's left
-for the humans?" So much stuff. He said
-it in such a wonderful, hopeful,
-actionable way. 
+
 Find the joy in all that you do. Find the purpose in all that you do.
+
+
+Paige
+Marina
+
+The creator of OpenClaw: "I ship code I don't read"
+https://www.youtube.com/watch?v=8lF7HmQ_RgY
+
+You're trying to think of things like the dark track
+
+Tom from Sonar
 -->
 
 
+Simon- what's left for humans? So mch stuff. Hopeful and actionable. 
 
 Methods
 
-CTA
+Call to Arms with a twist
+* Let's get them back to a better frame of mind- engineering
 
 
 ## AI Engineering by Chip Huyen
