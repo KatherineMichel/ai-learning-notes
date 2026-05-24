@@ -9,6 +9,9 @@ PyAI
 Lang Chain
 AI Dev 26
 
+Emerging Patterns in Building GenAI Products
+https://martinfowler.com/articles/gen-ai-patterns/
+
 Agentic systems diagrams
 https://www.ibm.com/think/architectures/patterns/agentic-ai
 
@@ -17,6 +20,8 @@ https://block.xyz/inside/from-hierarchy-to-intelligence
 https://x.com/jack/status/1979497865006272549
 https://x.com/karpathy/status/1979644538185752935
 https://github.com/torvalds/AudioNoise
+
+https://www.anthropic.com/research/glasswing-initial-update
 -->
 
 ## Mythos
@@ -140,9 +145,7 @@ Discpline of agentic design patterns.
 
 
 Mima
-maybe deep learning is the home where we
-all come together and create this new
-discipline called agentic engineering
+
 two best words in any presentation.
 This is from the last two slides of
 Grady's uh history of software
@@ -154,9 +157,6 @@ We're in a weird moment. We're in a
 moment that needs some storytelling,
 some message, and some messengers. And
 that's you.
-
-Find the joy in all that you do. Find the purpose in all that you do.
-
 
 Paige
 Marina
@@ -171,6 +171,7 @@ Tom from Sonar
 
 
 Simon- what's left for humans? So mch stuff. Hopeful and actionable. 
+Find the joy in all that you do. Find the purpose in all that you do.
 
 Methods
 
