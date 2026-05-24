@@ -32,7 +32,7 @@ https://www.anthropic.com/research/glasswing-initial-update
 
 Evidence
 * Sucess is not "durable" (Temporal word), productivity
-* 95% of organizations are getting zero return" ([The Gen AI Divide: State of AI in Business 2025](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf))
+* "95% of organizations are getting zero return" ([The Gen AI Divide: State of AI in Business 2025](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf))
 * Coding is only 1/5 things in software engineering productivity ([Daron Acemoglu: Nobel Prize in Economics, MIT New Colossus Project](https://www.youtube.com/watch?v=jp6jtEj_c80))
 * AI productivity gains are 10% not 10x (DX: Comparative analysis of AI tool adoption, November 2024- February 2026, 40 companies)
 * "Writing code was never the bottleneck" (all of software engineering) [Why aren't AI productivity gains higher?](https://getdx.com/blog/why-arent-ai-productivity-gains-higher/)
@@ -122,16 +122,20 @@ Tools
 * Agent needs to run a tool, generates code, runs it in a secure sandbox (not sed and grep it figures out the problem) 
 * Pydantic- rust-based subset of Python called Monty for running tool code in sandboxes at very high latency/low latency [Running Pydantic’s Monty Rust sandboxed Python subset in WebAssembly](https://simonwillison.net/2026/Feb/6/pydantic-monty/)
 * Red-green testing (engineers know about it, but don't do it) [Simon Willison on Lenny's podcast](https://www.youtube.com/watch?v=wc8FBhQtdsA)
-* Write broken test as first step in agent's work, agent will start to learn the way you like to write tests, mimic your style. You've defined what is green (success)
+* Write broken test as first step in agent's work, agent will start to learn the way you like to write tests, mimic your style. You've defined what is green (success). Fantastic fit for coding agents. 
 * Agent will know exactly how to please you
 * [DX: Introducing Agent Experience](https://getdx.com/blog/introducing-agent-experience/)
+* Big, old codebase, modularity looks different when you want parallel, highly specialized subagents and really good context engineering. You might reorganize your code around some different principles: agentic engineering
+* QA agents (see last paragraph) [Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/)
+* Humans are bottleneck, to speed up, make QA agents to prep the work. The secret is to move more capabilities into the agent.
+* "Get a browser or the DevTools protocol into the agent so it can collect the instrumentation itself as it deems fit. And that kind of integration with the outside world can only come from you. I predict you're going to be writing some code as your organizations need to glue all these things together. You're building the thing that builds the thing."
+* Observability [AI Observability Platform for LLMs, Apps & AI Agents](https://pydantic.dev/logfire)
+* General system observability, AI observability, probably need something that can do both
+* Orchestration
 
 
 <!--
-As he says, a fantastic fit for coding agents. We got a big old code base. And as we're learning, modularity looks a little bit different when you want to have parallel sub aents and highly specialized sub aents and really good context engineering. You might reorganize your code around some different principles. Principles called agentic engineering 
-
-
-QA agents. This is from the um the harness engineering and this one really popped for me that as humans kind of become the bottleneck. We we want to speed them up a little bit. So we're going to make QA agents. Maybe they don't do all the work, they just kind of prep the work or something like that. But the secret is to move more capabilities into the agent. try and scan the last paragraph real quick. Get a browser or the DevTools protocol into the agent so it can collect the instrumentation itself as it deems fit. And that kind of integration with the outside world can only come from you. I predict you're going to be writing some code as your organizations need to glue all these things together. You're building the thing that builds the thing. And I think that stuff is really interesting. Observability. Another topic that we hear a lot about here. Uh Pyantic says, you know, you got general system observability. We all know about that. We got AI observability. We're all learning about that. You probably need something that can do both. Orchestration is one that gets talked about. There are probably 500 Silicon Valley startups in series X of their funding. And Grady asked me to put in a line on orchestration about remember your architecture gluing this big big system together. Have some system design principles in it and context engineering. This is from my friends at um uh in Python. But for a better point on this, go see Unbox that uh Brandon gave one of the best presentations that I saw in the last couple of days. Some really great thinking out there from them and from other people. This is going to be such a fascinating field. And then finally, leadership and culture. 
+And Grady asked me to put in a line on orchestration about remember your architecture gluing this big big system together. Have some system design principles in it and context engineering. This is from my friends at um uh in Python. But for a better point on this, go see Unbox that uh Brandon gave one of the best presentations that I saw in the last couple of days. Some really great thinking out there from them and from other people. This is going to be such a fascinating field. And then finally, leadership and culture. 
 
 Raphael. 
 
