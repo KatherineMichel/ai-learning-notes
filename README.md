@@ -5,6 +5,10 @@
 * Ed Zitron newsletters
 
 <!--
+PyAI
+Lang Chain
+AI Dev 26
+
 Agentic systems diagrams
 https://www.ibm.com/think/architectures/patterns/agentic-ai
 
@@ -111,8 +115,8 @@ Tools
 * Harness engineering- if you don't own your harness, you don't own your memory [Your Harness, Your Memory](https://www.langchain.com/blog/your-harness-your-memory)
 
 <!--
-PyAI
-Lang Chain
+Paige
+Marina
 
 The creator of OpenClaw: "I ship code I don't read"
 https://www.youtube.com/watch?v=8lF7HmQ_RgY
@@ -121,161 +125,7 @@ You're trying to think of things like the dark track
 
 Tom from Sonar
 
-tooling this is another fascinating
-topic that I hope but I predict in the
-next six months will get on your radar
-and claude are talking about code mode
-uh and Cloudflare and others, the agent
-needs to run a tool. And so at that
-moment, it generates some code and runs it in a secure sandbox, exactly the code that it needs, not said and Grep and walking around until it figures out the problem. And my friends at paidandic
-19:43
-have a rustbased subset of Python called
-19:48
-Monty of course for running tool code in
-19:53
-uh sandboxes at very high latency or low
-19:57
-latency high lating
-20:01
-in several of the uh podcasts like
-20:04
-Lenny's podcast that Simon was on. Red
-20:07
-green testing is one of those things we
-20:09
-as engineers know about. Red green
-20:12
-testing, we just don't do it because we
-20:16
-can get the button to go clicky without
-20:18
-writing a test.
-20:20
-If you will write a broken test as the
-20:23
-first step in your agent's work, the as
-20:27
-he said, the agent will start to learn
-20:29
-the way you like to write tests and will
-20:32
-mimic your testing style, which is super
-20:35
-cool. And then you've kind of defined
-20:37
-success.
-20:39
-What is green? And it instead of
-20:41
-wandering around trying to figure out
-20:43
-how to please you, it knows exactly how
-20:45
-to please you. As he says, a fantastic
-20:48
-fit for coding agents.
-20:50
-This one is fascinating for me. Uh I'm
-20:53
-going to ask this in a vague way to get
-20:56
-a lot of hands to raise. Raise your hand
-20:59
-if you work on a big old codebase.
-21:04
-I'll go with 20%.
-21:08
-We're jet brains. We're Intelligj. We've
-21:10
-been 25 years of this stuff. We got a
-21:13
-big old code base. And as we're
-21:15
-learning, modularity
-21:19
-looks a little bit different when you
-21:20
-want to have parallel sub aents and
-21:23
-highly specialized sub aents and really
-21:26
-good context engineering. You might reorganize your code around some different principles. Principles called Ojic engineering QA agents. This is from the um the harness engineering and this one really popped for me that as humans kind of become the bottleneck. We we want to speed them up a little bit. So we're
-21:48
-going to make QA agents.
-21:52
-Maybe they don't do all the work, they
-21:53
-just kind of prep the work or something
-21:54
-like that. But the secret is
-21:59
-to move more capabilities into the
-22:01
-agent. try and scan the last paragraph
-22:03
-real quick. Get a browser or the
-22:07
-DevTools protocol into the agent so it
-22:10
-can collect the instrumentation itself
-22:12
-as it deems fit.
-22:15
-And that kind of integration with the
-22:17
-outside world can only come from you. I
-22:21
-predict you're going to be writing some
-22:23
-code as your organizations need to glue
-22:27
-all these things together. You're
-22:29
-building the thing that builds the
-22:31
-thing. And I think that stuff is really
-22:33
-interesting.
-22:35
-Observability. Another topic that we
-22:37
-hear a lot about here. Uh Pyantic says,
-22:40
-you know, you got general system
-22:42
-observability. We all know about that.
-22:43
-We got AI observability. We're all
-22:45
-learning about that. You probably need
-22:47
-something that can do both.
-22:50
-Orchestration is one that gets talked
-22:52
-about. There are probably 500 Silicon
-22:55
-Valley startups in series X of their
-22:59
-funding. And Grady asked me to put in a
-23:02
-line on orchestration
-23:05
-about remember your architecture gluing
-23:08
-this big big system together. Have some
-23:11
-system design principles in it
-23:15
-and context engineering. This is from my
-23:17
-friends at um uh in Python. But for a
-23:21
-better point on this, go see Unbox that
-23:24
-uh Brandon gave one of the best
-23:26
-presentations that I saw in the last
+tooling this is another fascinating topic that I hope but I predict in the next six months will get on your radar and claude are talking about code mode uh and Cloudflare and others, the agent needs to run a tool. And so at that moment, it generates some code and runs it in a secure sandbox, exactly the code that it needs, not said and Grep and walking around until it figures out the problem. And my friends at paidandic have a rustbased subset of Python called Monty of course for running tool code in uh sandboxes at very high latency or low latency high lating in several of the uh podcasts like Lenny's podcast that Simon was on. Red green testing is one of those things we as engineers know about. Red green testing, we just don't do it because we can get the button to go clicky without writing a test. If you will write a broken test as the first step in your agent's work, the as he said, the agent will start to learn the way you like to write tests and will mimic your testing style, which is super cool. And then you've kind of defined success. What is green? And it instead of wandering around trying to figure out how to please you, it knows exactly how to please you. As he says, a fantastic fit for coding agents. This one is fascinating for me. Uh I'm going to ask this in a vague way to get a lot of hands to raise. Raise your hand if you work on a big old codebase. I'll go with 20%. We're jet brains. We're Intelligj. We've been 25 years of this stuff. We got a big old code base. And as we're learning, modularity looks a little bit different when you want to have parallel sub aents and highly specialized sub aents and really good context engineering. You might reorganize your code around some different principles. Principles called Ojic engineering QA agents. This is from the um the harness engineering and this one really popped for me that as humans kind of become the bottleneck. We we want to speed them up a little bit. So we're going to make QA agents. Maybe they don't do all the work, they just kind of prep the work or something like that. But the secret is to move more capabilities into the agent. try and scan the last paragraph real quick. Get a browser or the DevTools protocol into the agent so it can collect the instrumentation itself as it deems fit. And that kind of integration with the outside world can only come from you. I predict you're going to be writing some code as your organizations need to glue all these things together. You're building the thing that builds the thing. And I think that stuff is really interesting. Observability. Another topic that we hear a lot about here. Uh Pyantic says, you know, you got general system observability. We all know about that. We got AI observability. We're all learning about that. You probably need something that can do both. Orchestration is one that gets talked about. There are probably 500 Silicon Valley startups in series X of their funding. And Grady asked me to put in a line on orchestration about remember your architecture gluing this big big system together. Have some system design principles in it and context engineering. This is from my friends at um uh in Python. But for a better point on this, go see Unbox that uh Brandon gave one of the best presentations that I saw in the last
 23:28
 couple of days. Some really great
 23:30
@@ -426,16 +276,10 @@ Find the joy in all that you do. Find the purpose in all that you do.
 
 
 
-Taxonomies
-
-Tools
-
 Methods
 
 CTA
 
-Paige
-Marina
 
 ## AI Engineering by Chip Huyen
 
