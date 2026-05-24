@@ -136,10 +136,19 @@ Tools
 
 
 <!--
-Raphael. 
+The creator of OpenClaw: "I ship code I don't read"
+https://www.youtube.com/watch?v=8lF7HmQ_RgY
 
-Leadership and culture. 
+You're trying to think of things like the dark track
 
+Tom from Sonar
+
+Raphael
+Mima
+Paige
+Marina
+
+Leadership and culture
 You're going to have to manage up to your stakeholders, but really you're going to have to manage down. 
 Fobbo, fear of being obsolete. 
 
@@ -147,38 +156,18 @@ Vibe coding -> Agentic Engineering
 Stop automating and replacing the current workforce
 Inovate and augment the humans
 Get bold new things done
-Get back to the practice, dispipline of engineering
+
+Get back to the practice, discipline of (agentic) engineering
+Better (ideas/code/delivery) -> More/cheaper code
 Engineering builds the things that build the thing
+
 There are rules. It's a science. It's a practice. You can learn it and master it. 
 Grady's cohort- UML, design patterns, build the field of modern software engineering
 Grady knows there is a next thing called agentic patterns. Wants someone in audience to figure it out. 
-Discpline of agentic design patterns. 
+Discipline of agentic design patterns. 
 
 
-
-Mima
-
-two best words in any presentation.
-This is from the last two slides of
-Grady's uh history of software
-engineering talk. You write code, you
-are engineers, but that code actually
-tells a story and you're the
-storytellers. And we are in a moment.
-We're in a weird moment. We're in a
-moment that needs some storytelling,
-some message, and some messengers. And
-that's you.
-
-Paige
-Marina
-
-The creator of OpenClaw: "I ship code I don't read"
-https://www.youtube.com/watch?v=8lF7HmQ_RgY
-
-You're trying to think of things like the dark track
-
-Tom from Sonar
+"You write code, you are engineers, but that code actually tells a story and you're the storytellers. And we are in a moment. We're in a weird moment. We're in a moment that needs some storytelling, some message, and some messengers. And that's you.
 -->
 
 
