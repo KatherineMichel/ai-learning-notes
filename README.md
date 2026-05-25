@@ -1,5 +1,126 @@
 # AI Learning Notes
 
+<!--
+## FastAPI and Pydantic
+
+Fast API
+* [Fast API GitHub](https://github.com/tiangolo/fastapi)
+
+https://fastapi.tiangolo.com/
+https://pydantic-docs.helpmanual.io/ | pydantic
+
+The Python SQL Toolkit and Object Relational Mapper
+* [SQLAlchemy](https://www.sqlalchemy.org/) and [SQLAlchemy Docs](https://docs.sqlalchemy.org)
+
+https://realpython.com/fastapi-python-web-apis/
+https://github.com/fastapi/fastapi-new
+https://github.com/fastapi/fastapi
+
+## AI
+
+Time 100 AI 2025
+https://time.com/collections/time100-ai-2025/
+
+AI People
+https://x.com/scobleizer/lists
+https://x.com/Scobleizer/status/2050630468064993728
+
+https://x.com/ChatGPTapp/following
+
+
+ML System Design Case Studies Repository
+https://github.com/Engineer1999/A-Curated-List-of-ML-System-Design-Case-Studies
+
+
+2025: The year in LLMs
+https://simonwillison.net/2025/Dec/31/the-year-in-llms/
+
+An AI state of the union: We’ve passed the inflection point & dark factories are coming
+https://www.youtube.com/watch?v=wc8FBhQtdsA&t=741s
+
+
+Jack Dorsey: Every Company Can Now Be a Mini-AGI
+https://www.youtube.com/watch?v=YTVSwOY19Qs
+From Hierarchy to Intelligence
+https://x.com/jack/status/2039003879841362278
+https://block.xyz/inside/from-hierarchy-to-intelligence
+https://engineering.block.xyz/blog/protecting-our-systems-with-intelligence
+
+https://x.com/jack/status/1979497865006272549
+
+https://goose-docs.ai/blog/
+https://github.com/aaif-goose/goose
+https://linktr.ee/goose_oss
+Goose OSS
+https://www.youtube.com/@goose-oss/videos
+Intro to Agent Client Protocol (ACP) | Vibe Code with goose
+https://www.youtube.com/watch?v=Hvu5KDTb6JE
+
+
+Karpathy Interview
+https://x.com/jack/status/1979497865006272549
+
+Andrej Karpathy: From Vibe Coding to Agentic Engineering
+https://www.youtube.com/watch?v=96jN2OCOfLs&t=1666s
+
+https://x.com/karpathy/status/1979644538185752935
+
+microgpt
+https://karpathy.github.io/2026/02/12/microgpt/
+https://x.com/iam_elias1/status/2049147610263695790
+
+
+https://github.com/openclaw/openclaw/security/advisories
+https://openclaw.ai/blog/openclaw-security-in-public/
+https://x.com/openclaw/status/2049972008515957056
+
+This 14-minute talk by the Creator of MCP will teach you more about 
+building them than most developers figure out on their own in a year.
+https://x.com/Av1dlive/status/2049099215520071921
+https://x.com/cyrilXBT/status/2049093475560301009
+
+
+Agentic Design Patterns
+https://x.com/aaditsh/status/1974900178957259012
+https://docs.google.com/document/d/1rsaK53T3Lg5KoGwvf8ukOUvbELRtH-V0LnOIFDxBryE/edit?pli=1&tab=t.0#heading=h.pxcur8v2qagu
+https://drive.google.com/file/d/1-5ho2aSZ-z0FcW8W_jMUoFSQ5hTKvJ43/view
+
+LLM Architecture Analysis
+https://x.com/Sumanth_077/status/1965061181007405375
+https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison
+https://sebastianraschka.com/llm-architecture-gallery/
+
+complete technical guide to building agent-native software 
+https://x.com/danshipper/status/2009651408144835021
+https://every.to/guides/agent-native
+
+Courses
+
+Stanford CS336 Language Modeling from Scratch I 2025
+https://www.youtube.com/playlist?list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_
+
+Stanford just dropped their full LLM course on YouTube.
+CME 295: Transformers & Large Language Models
+https://x.com/srishticodes/status/2001161632421175751
+youtube.com/playlist?list=PLoROMvodv4rOCXd21gf0CF4xr35yINeOy&si=Kzg-T2x-iEaFaetK
+
+https://cs153.stanford.edu/
+https://www.youtube.com/channel/UC0YBJCRIt4kA2jZ7siTGMyQ
+https://www.youtube.com/playlist?list=PLoROMvodv4rN447WKQ5oz_YdYbS74M5IA
+https://x.com/AnjneyMidha/status/2037676908457197597
+https://x.com/AnjneyMidha/status/2048775711763378363
+
+https://x.com/marlene_zw/status/2046635304623185944
+https://github.com/microsoft/langchain-for-beginners
+
+
+https://x.com/karpathy/status/1991910395720925418
+https://www.gartner.com/en/articles/understand-and-exploit-gen-ai-with-gartner-s-new-impact-radar | Gartner Impact Radar for Generative AI 2024
+
+https://lexler.github.io/augmented-coding-patterns/
+https://lexler.github.io/augmented-coding-patterns/talk/
+-->
+
 * [AI DEV 26 Playlist](https://www.youtube.com/watch?v=fAfuQN0WwFE&list=PLkDaE6sCZn6FcbioyqaUdO_NaNLF2JgcJ)
 * Andrew Ng's [The Batch Newsletter](https://www.deeplearning.ai/the-batch)
 * Ed Zitron newsletters
@@ -15,16 +136,42 @@ https://martinfowler.com/articles/gen-ai-patterns/
 Agentic systems diagrams
 https://www.ibm.com/think/architectures/patterns/agentic-ai
 
-https://engineering.block.xyz/blog/protecting-our-systems-with-intelligence
-https://block.xyz/inside/from-hierarchy-to-intelligence
-https://x.com/jack/status/1979497865006272549
-https://x.com/karpathy/status/1979644538185752935
 https://github.com/torvalds/AudioNoise
+-->
 
-https://www.anthropic.com/research/glasswing-initial-update
+## Spec-Driven Development
+
+[Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html)
+
+[Spec-Driven Development with Coding Agents](https://www.deeplearning.ai/courses/spec-driven-development-with-coding-agents)
+
+People involved:
+* Andrew Ng
+* Paul Everitt
+* Konstantin Chaiko
+* Zina Smirnova
+* Isabel Zaro
+
+Best type of workflow for building serious applications with agentic coding assistants
+* Markdown file
+* Long prompt
+* Focus on writing down context
+
+Vibe-coding does not scale to a large, ongoing project
+
+[GitHub Spec-kit](https://github.com/github/spec-kit)
+
+<!--
+https://docs.tessl.io/introduction-to-tessl/quickstart-skills-docs-rules
+
+https://en.wikipedia.org/wiki/Specification-driven_development
 -->
 
 ## Mythos
+
+<!--
+https://www.anthropic.com/research/glasswing-initial-update
+-->
 
 ## Deep Learning AI and Jet Brains Collaboration
 
