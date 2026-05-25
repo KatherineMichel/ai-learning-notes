@@ -113,6 +113,8 @@ https://x.com/AnjneyMidha/status/2048775711763378363
 https://x.com/marlene_zw/status/2046635304623185944
 https://github.com/microsoft/langchain-for-beginners
 
+https://github.com/microsoft/ai-agents-for-beginners
+
 
 https://x.com/karpathy/status/1991910395720925418
 https://www.gartner.com/en/articles/understand-and-exploit-gen-ai-with-gartner-s-new-impact-radar | Gartner Impact Radar for Generative AI 2024
@@ -162,6 +164,12 @@ Vibe-coding does not scale to a large, ongoing project
 [GitHub Spec-kit](https://github.com/github/spec-kit)
 
 <!--
+https://github.com/buildermethods/agent-os
+AI Engineer World's Fair 2025: "The Specs Must Flow"
+https://www.reddit.com/r/singularity/comments/1qwdzcq/karpathy_proposes_agentic_engineering_as_the/
+Simon Willson: Agentic Engineering Patterns
+Spec-driven development is used with coding agents, not simple chat bots
+
 https://docs.tessl.io/introduction-to-tessl/quickstart-skills-docs-rules
 
 https://en.wikipedia.org/wiki/Specification-driven_development
