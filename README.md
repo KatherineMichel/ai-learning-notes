@@ -28,6 +28,11 @@ https://x.com/Scobleizer/status/2050630468064993728
 https://x.com/ChatGPTapp/following
 
 
+https://www.gartner.com/en/articles/understand-and-exploit-gen-ai-with-gartner-s-new-impact-radar | Gartner Impact Radar for Generative AI 2024
+
+https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html
+
+
 ML System Design Case Studies Repository
 https://github.com/Engineer1999/A-Curated-List-of-ML-System-Design-Case-Studies
 
@@ -46,7 +51,7 @@ https://x.com/jack/status/2039003879841362278
 https://block.xyz/inside/from-hierarchy-to-intelligence
 https://engineering.block.xyz/blog/protecting-our-systems-with-intelligence
 
-https://x.com/jack/status/1979497865006272549
+https://www.linkedin.com/pulse/stop-building-agents-start-harnessing-goose-adam-miller-b9xgc/
 
 https://goose-docs.ai/blog/
 https://github.com/aaif-goose/goose
@@ -62,8 +67,10 @@ https://x.com/jack/status/1979497865006272549
 
 Andrej Karpathy: From Vibe Coding to Agentic Engineering
 https://www.youtube.com/watch?v=96jN2OCOfLs&t=1666s
-
+https://x.com/dwarkesh_sp/status/1979234976777539987
 https://x.com/karpathy/status/1979644538185752935
+
+https://x.com/karpathy/status/1991910395720925418
 
 microgpt
 https://karpathy.github.io/2026/02/12/microgpt/
@@ -80,19 +87,26 @@ https://x.com/Av1dlive/status/2049099215520071921
 https://x.com/cyrilXBT/status/2049093475560301009
 
 
+
 Agentic Design Patterns
 https://x.com/aaditsh/status/1974900178957259012
 https://docs.google.com/document/d/1rsaK53T3Lg5KoGwvf8ukOUvbELRtH-V0LnOIFDxBryE/edit?pli=1&tab=t.0#heading=h.pxcur8v2qagu
 https://drive.google.com/file/d/1-5ho2aSZ-z0FcW8W_jMUoFSQ5hTKvJ43/view
 
+complete technical guide to building agent-native software 
+https://x.com/danshipper/status/2009651408144835021
+https://every.to/guides/agent-native
+
+A collection of emerging patterns, anti-patterns and obstacles for effective AI-augmented software development. Learn how to collaborate successfully with AI coding assistants and avoid common pitfalls.
+https://lexler.github.io/augmented-coding-patterns/
+https://lexler.github.io/augmented-coding-patterns/talk/
+https://www.youtube.com/watch?v=_LSK2bVf0Lc&t=5301s
+
+
 LLM Architecture Analysis
 https://x.com/Sumanth_077/status/1965061181007405375
 https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison
 https://sebastianraschka.com/llm-architecture-gallery/
-
-complete technical guide to building agent-native software 
-https://x.com/danshipper/status/2009651408144835021
-https://every.to/guides/agent-native
 
 Courses
 
@@ -114,13 +128,6 @@ https://x.com/marlene_zw/status/2046635304623185944
 https://github.com/microsoft/langchain-for-beginners
 
 https://github.com/microsoft/ai-agents-for-beginners
-
-
-https://x.com/karpathy/status/1991910395720925418
-https://www.gartner.com/en/articles/understand-and-exploit-gen-ai-with-gartner-s-new-impact-radar | Gartner Impact Radar for Generative AI 2024
-
-https://lexler.github.io/augmented-coding-patterns/
-https://lexler.github.io/augmented-coding-patterns/talk/
 -->
 
 * [AI DEV 26 Playlist](https://www.youtube.com/watch?v=fAfuQN0WwFE&list=PLkDaE6sCZn6FcbioyqaUdO_NaNLF2JgcJ)
@@ -178,6 +185,9 @@ https://en.wikipedia.org/wiki/Specification-driven_development
 ## Mythos
 
 <!--
+https://red.anthropic.com/2026/mythos-preview/
+https://blog.mozilla.org/en/privacy-security/ai-security-zero-day-vulnerabilities/
+https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/
 https://www.anthropic.com/research/glasswing-initial-update
 -->
 
