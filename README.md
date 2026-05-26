@@ -43,10 +43,25 @@ https://github.com/Engineer1999/A-Curated-List-of-ML-System-Design-Case-Studies
 
 2025: The year in LLMs
 https://simonwillison.net/2025/Dec/31/the-year-in-llms/
+2025 LLM Year in Review
+https://karpathy.bearblog.dev/year-in-review-2025/
 
 An AI state of the union: We’ve passed the inflection point & dark factories are coming
 https://www.youtube.com/watch?v=wc8FBhQtdsA&t=741s
 
+
+https://aaif.io/
+OpenAI is co-founding the Agentic AI Foundation (AAIF) under the Linux Foundation alongside Anthropic and Block to support open, interoperable standards for agentic AI.
+We’re also donating AGENTS .md to help establish open standards that enable safe, reliable agents across tools, repositories, and ecosystems.
+Agentic AI Foundation
+https://x.com/goose_oss/status/1998439050206654584
+We're donating MCP to the @linuxfoundation and launching the Agentic AI Foundation with @OpenAI @blocks @AWS @Bloomberg @Cloudflare @Google @Microsoft
+MCP went from internal project to industry standard in a year. Now it gets the long-term stewardship it deserves.
+https://x.com/mikeyk/status/1998456026136457532
+https://x.com/blocks/status/1998438314035040625
+https://block.xyz/inside/block-anthropic-and-openai-launch-the-agentic-ai-foundation
+goose will become the reference implementation for the MCP
+https://x.com/jack/status/1998485932601913547
 
 Jack Dorsey: Every Company Can Now Be a Mini-AGI
 https://www.youtube.com/watch?v=YTVSwOY19Qs
@@ -54,6 +69,20 @@ From Hierarchy to Intelligence
 https://x.com/jack/status/2039003879841362278
 https://block.xyz/inside/from-hierarchy-to-intelligence
 https://engineering.block.xyz/blog/protecting-our-systems-with-intelligence
+
+We integrated Afterpay's BNPL in @goose_oss over the open Universal Commerce Protocol (UCP).
+Shopping from your AI agent is the future.
+https://x.com/blockopensource/status/2019520970982322481
+https://opensource.block.xyz/blog/agentic-commerce-afterpay-ucp/
+We brought the Ralph Wiggum loop to goose with a multi-model approach where one model does the work and a second model reviews it.
+https://x.com/goose_oss/status/2011193050689651186
+https://goose-docs.ai/docs/tutorials/ralph-loop/
+https://x.com/blackgirlbytes/status/1999255677479584137
+
+Goose versus Claude
+https://x.com/AbhinavXJ/status/2014906553690952085
+https://x.com/_bluman/status/2011838526266970269
+https://x.com/blocks/status/2014301639549616624
 
 https://www.linkedin.com/pulse/stop-building-agents-start-harnessing-goose-adam-miller-b9xgc/
 https://open.spotify.com/episode/6ETe0DPm9tKxHSqB9KcKT0?si=T1EioUssT0iMMH-7BWwesg&nd=1&dlsi=bbbddaf3e3a14993
@@ -84,8 +113,9 @@ https://x.com/karpathy/status/1979644538185752935
 
 https://x.com/jack/status/2035209431902781775
 https://x.com/_weidai/status/2035236632161656969
-
 https://x.com/karpathy/status/1991910395720925418
+https://x.com/karpathy/status/1991910395720925418
+https://x.com/karpathy/status/2004607146781278521
 
 microgpt
 https://karpathy.github.io/2026/02/12/microgpt/
