@@ -56,6 +56,7 @@ https://block.xyz/inside/from-hierarchy-to-intelligence
 https://engineering.block.xyz/blog/protecting-our-systems-with-intelligence
 
 https://www.linkedin.com/pulse/stop-building-agents-start-harnessing-goose-adam-miller-b9xgc/
+https://open.spotify.com/episode/6ETe0DPm9tKxHSqB9KcKT0?si=T1EioUssT0iMMH-7BWwesg&nd=1&dlsi=bbbddaf3e3a14993
 
 Who is using Goose? What are you using it for?
 https://x.com/moneyball/status/2030773080876884207
@@ -67,6 +68,7 @@ https://www.youtube.com/@goose-oss/videos
 Intro to Agent Client Protocol (ACP) | Vibe Code with goose
 https://www.youtube.com/watch?v=Hvu5KDTb6JE
 https://github.com/Mesh-LLM/mesh-llm
+https://goose-docs.ai/extensions/detail/?id=neighborhood
 
 Feature log
 https://squareup.com/us/en/feature-log?audience=ALL
@@ -122,6 +124,9 @@ LLM Architecture Analysis
 https://x.com/Sumanth_077/status/1965061181007405375
 https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison
 https://sebastianraschka.com/llm-architecture-gallery/
+
+Ollama's cloud is one of the best places to run OpenClaw.
+https://x.com/ollama/status/2040261847597867159
 
 Courses
 
