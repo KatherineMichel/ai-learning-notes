@@ -18,6 +18,10 @@ https://github.com/fastapi/fastapi
 
 ## AI
 
+your edge is whatever you know that the models don't know
+https://x.com/kepano/status/2033220362906075551
+
+
 Time 100 AI 2025
 https://time.com/collections/time100-ai-2025/
 
@@ -53,6 +57,8 @@ https://engineering.block.xyz/blog/protecting-our-systems-with-intelligence
 
 https://www.linkedin.com/pulse/stop-building-agents-start-harnessing-goose-adam-miller-b9xgc/
 
+Who is using Goose? What are you using it for?
+https://x.com/moneyball/status/2030773080876884207
 https://goose-docs.ai/blog/
 https://github.com/aaif-goose/goose
 https://linktr.ee/goose_oss
@@ -60,6 +66,10 @@ Goose OSS
 https://www.youtube.com/@goose-oss/videos
 Intro to Agent Client Protocol (ACP) | Vibe Code with goose
 https://www.youtube.com/watch?v=Hvu5KDTb6JE
+https://github.com/Mesh-LLM/mesh-llm
+
+Feature log
+https://squareup.com/us/en/feature-log?audience=ALL
 
 
 Karpathy Interview
@@ -70,12 +80,17 @@ https://www.youtube.com/watch?v=96jN2OCOfLs&t=1666s
 https://x.com/dwarkesh_sp/status/1979234976777539987
 https://x.com/karpathy/status/1979644538185752935
 
+https://x.com/jack/status/2035209431902781775
+https://x.com/_weidai/status/2035236632161656969
+
 https://x.com/karpathy/status/1991910395720925418
 
 microgpt
 https://karpathy.github.io/2026/02/12/microgpt/
 https://x.com/iam_elias1/status/2049147610263695790
 
+nanochat
+https://x.com/karpathy/status/2029701092347630069
 
 https://github.com/openclaw/openclaw/security/advisories
 https://openclaw.ai/blog/openclaw-security-in-public/
