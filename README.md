@@ -1,6 +1,16 @@
 # AI Learning Notes
 
+## Tools
+
+[Google's Open Source, Distributed, AI Runtime](https://github.com/google/ax)
+
 <!--
+The Tool Abstraction Problem: Lessons Learned Building 1000+ MCP Tools
+https://aaif.io/blog/the-tool-abstraction-problem
+
+MCP Is Growing Up
+https://aaif.io/blog/mcp-is-growing-up
+
 Andrew Godwin on "Truth, Trust, LLMs, and Consequences"
 https://www.youtube.com/watch?v=fJA6tJEwEJ4
 
