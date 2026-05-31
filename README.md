@@ -1,9 +1,5 @@
 # AI Learning Notes
 
-## Tools
-
-[Google's Open Source, Distributed, AI Runtime](https://github.com/google/ax)
-
 <!--
 The Tool Abstraction Problem: Lessons Learned Building 1000+ MCP Tools
 https://aaif.io/blog/the-tool-abstraction-problem
@@ -210,6 +206,11 @@ https://www.ibm.com/think/architectures/patterns/agentic-ai
 
 https://github.com/torvalds/AudioNoise
 -->
+
+## Tools
+
+* [Goose Agentic Framework](https://goose-docs.ai/)
+* [Google's Open Source, Distributed, AI Runtime](https://github.com/google/ax)
 
 ## Spec-Driven Development
 
