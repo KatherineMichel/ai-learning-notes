@@ -1,6 +1,9 @@
 # AI Learning Notes
 
 <!--
+Andrew Godwin on "Truth, Trust, LLMs, and Consequences"
+https://www.youtube.com/watch?v=fJA6tJEwEJ4
+
 ## FastAPI and Pydantic
 
 Fast API
