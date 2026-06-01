@@ -1,6 +1,10 @@
 # AI Learning Notes
 
 <!--
+Pi, the basis for Open Claw
+https://pi.dev/
+https://lucumr.pocoo.org/2026/1/31/pi/
+
 A rational conversation on where AI is actually going | Benedict Evans
 https://www.youtube.com/watch?v=BD3vLtWhT5A
 
