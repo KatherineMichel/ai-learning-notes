@@ -1,6 +1,9 @@
 # AI Learning Notes
 
 <!--
+A rational conversation on where AI is actually going | Benedict Evans
+https://www.youtube.com/watch?v=BD3vLtWhT5A
+
 The Tool Abstraction Problem: Lessons Learned Building 1000+ MCP Tools
 https://aaif.io/blog/the-tool-abstraction-problem
 
