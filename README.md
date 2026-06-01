@@ -13,6 +13,9 @@ https://aaif.io/blog/mcp-is-growing-up
 Andrew Godwin on "Truth, Trust, LLMs, and Consequences"
 https://www.youtube.com/watch?v=fJA6tJEwEJ4
 
+Are LLMs good software engineers? - Anthony Shaw - NDC Sydney 2026
+https://www.youtube.com/watch?v=3wQdfYFhxmE
+
 ## FastAPI and Pydantic
 
 Fast API
