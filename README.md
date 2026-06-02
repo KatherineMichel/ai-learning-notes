@@ -1,24 +1,38 @@
 # AI Learning Notes
 
+## News Resources
+
+* [Simon Willison Blog](https://simonwillison.net/)
+* [Agentic AI Foundation](https://aaif.io/blog/)
+* [AI DEV 26 Playlist](https://www.youtube.com/watch?v=fAfuQN0WwFE&list=PLkDaE6sCZn6FcbioyqaUdO_NaNLF2JgcJ)
+* Andrew Ng's [The Batch Newsletter](https://www.deeplearning.ai/the-batch)
+* Ed Zitron newsletters
+
+## Tools
+
+* [Landscape](https://landscape.aaif.io/)
+* [Goose Agentic Framework](https://goose-docs.ai/)
+* [Google's Open Source, Distributed, AI Runtime](https://github.com/google/ax)
+
 <!--
-Pi, the basis for Open Claw
-https://pi.dev/
-https://lucumr.pocoo.org/2026/1/31/pi/
+Time 100 AI 2025
+https://time.com/collections/time100-ai-2025/
 
-A rational conversation on where AI is actually going | Benedict Evans
-https://www.youtube.com/watch?v=BD3vLtWhT5A
+AI People
+https://x.com/scobleizer/lists
+https://x.com/Scobleizer/status/2050630468064993728
 
-The Tool Abstraction Problem: Lessons Learned Building 1000+ MCP Tools
-https://aaif.io/blog/the-tool-abstraction-problem
+https://x.com/ChatGPTapp/following
 
-MCP Is Growing Up
-https://aaif.io/blog/mcp-is-growing-up
 
-Andrew Godwin on "Truth, Trust, LLMs, and Consequences"
-https://www.youtube.com/watch?v=fJA6tJEwEJ4
+PyAI
+https://pyai.events/events
+https://www.youtube.com/channel/UCLthD1Jmx55d7Vnca_Tv69A
+https://www.youtube.com/@Pydantic/videos
 
-Are LLMs good software engineers? - Anthony Shaw - NDC Sydney 2026
-https://www.youtube.com/watch?v=3wQdfYFhxmE
+https://claude.com/code-with-claude
+https://www.youtube.com/playlist?list=PLf2m23nhTg1P5BsOHUOXyQz5RhfUSSVUi
+
 
 ## FastAPI and Pydantic
 
@@ -35,20 +49,52 @@ https://realpython.com/fastapi-python-web-apis/
 https://github.com/fastapi/fastapi-new
 https://github.com/fastapi/fastapi
 
+LangChain
+https://www.langchain.com/
+
+Pi, the basis for Open Claw
+https://pi.dev/
+https://lucumr.pocoo.org/2026/1/31/pi/
+
+LLM Architecture Analysis
+https://x.com/Sumanth_077/status/1965061181007405375
+https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison
+https://sebastianraschka.com/llm-architecture-gallery/
+
+Ollama's cloud is one of the best places to run OpenClaw.
+https://x.com/ollama/status/2040261847597867159
+
+https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/
+
+
+Courses
+
+Stanford CS336 Language Modeling from Scratch I 2025
+https://www.youtube.com/playlist?list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_
+https://cs336.stanford.edu/
+https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md
+
+Stanford just dropped their full LLM course on YouTube.
+CME 295: Transformers & Large Language Models
+https://x.com/srishticodes/status/2001161632421175751
+youtube.com/playlist?list=PLoROMvodv4rOCXd21gf0CF4xr35yINeOy&si=Kzg-T2x-iEaFaetK
+
+https://cs153.stanford.edu/
+https://www.youtube.com/channel/UC0YBJCRIt4kA2jZ7siTGMyQ
+https://www.youtube.com/playlist?list=PLoROMvodv4rN447WKQ5oz_YdYbS74M5IA
+https://x.com/AnjneyMidha/status/2037676908457197597
+https://x.com/AnjneyMidha/status/2048775711763378363
+
+https://x.com/marlene_zw/status/2046635304623185944
+https://github.com/microsoft/langchain-for-beginners
+
+https://github.com/microsoft/ai-agents-for-beginners
+
+
 ## AI
 
 your edge is whatever you know that the models don't know
 https://x.com/kepano/status/2033220362906075551
-
-
-Time 100 AI 2025
-https://time.com/collections/time100-ai-2025/
-
-AI People
-https://x.com/scobleizer/lists
-https://x.com/Scobleizer/status/2050630468064993728
-
-https://x.com/ChatGPTapp/following
 
 
 https://www.gartner.com/en/articles/understand-and-exploit-gen-ai-with-gartner-s-new-impact-radar | Gartner Impact Radar for Generative AI 2024
@@ -68,8 +114,17 @@ https://karpathy.bearblog.dev/year-in-review-2025/
 An AI state of the union: We’ve passed the inflection point & dark factories are coming
 https://www.youtube.com/watch?v=wc8FBhQtdsA&t=741s
 
+A rational conversation on where AI is actually going | Benedict Evans
+https://www.youtube.com/watch?v=BD3vLtWhT5A
+https://www.ben-evans.com/presentations
 
-https://aaif.io/
+Andrew Godwin on "Truth, Trust, LLMs, and Consequences"
+https://www.youtube.com/watch?v=fJA6tJEwEJ4
+
+Are LLMs good software engineers? - Anthony Shaw - NDC Sydney 2026
+https://www.youtube.com/watch?v=3wQdfYFhxmE
+
+
 OpenAI is co-founding the Agentic AI Foundation (AAIF) under the Linux Foundation alongside Anthropic and Block to support open, interoperable standards for agentic AI.
 We’re also donating AGENTS .md to help establish open standards that enable safe, reliable agents across tools, repositories, and ecosystems.
 Agentic AI Foundation
@@ -168,45 +223,24 @@ https://lexler.github.io/augmented-coding-patterns/
 https://lexler.github.io/augmented-coding-patterns/talk/
 https://www.youtube.com/watch?v=_LSK2bVf0Lc&t=5301s
 
+The Tool Abstraction Problem: Lessons Learned Building 1000+ MCP Tools
+https://aaif.io/blog/the-tool-abstraction-problem
 
-LLM Architecture Analysis
-https://x.com/Sumanth_077/status/1965061181007405375
-https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison
-https://sebastianraschka.com/llm-architecture-gallery/
-
-Ollama's cloud is one of the best places to run OpenClaw.
-https://x.com/ollama/status/2040261847597867159
-
-Courses
-
-Stanford CS336 Language Modeling from Scratch I 2025
-https://www.youtube.com/playlist?list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_
-
-Stanford just dropped their full LLM course on YouTube.
-CME 295: Transformers & Large Language Models
-https://x.com/srishticodes/status/2001161632421175751
-youtube.com/playlist?list=PLoROMvodv4rOCXd21gf0CF4xr35yINeOy&si=Kzg-T2x-iEaFaetK
-
-https://cs153.stanford.edu/
-https://www.youtube.com/channel/UC0YBJCRIt4kA2jZ7siTGMyQ
-https://www.youtube.com/playlist?list=PLoROMvodv4rN447WKQ5oz_YdYbS74M5IA
-https://x.com/AnjneyMidha/status/2037676908457197597
-https://x.com/AnjneyMidha/status/2048775711763378363
-
-https://x.com/marlene_zw/status/2046635304623185944
-https://github.com/microsoft/langchain-for-beginners
-
-https://github.com/microsoft/ai-agents-for-beginners
+MCP Is Growing Up
+https://aaif.io/blog/mcp-is-growing-up
 -->
 
-* [AI DEV 26 Playlist](https://www.youtube.com/watch?v=fAfuQN0WwFE&list=PLkDaE6sCZn6FcbioyqaUdO_NaNLF2JgcJ)
-* Andrew Ng's [The Batch Newsletter](https://www.deeplearning.ai/the-batch)
-* Ed Zitron newsletters
+<!--
+## Mythos
+
+https://red.anthropic.com/2026/mythos-preview/
+https://blog.mozilla.org/en/privacy-security/ai-security-zero-day-vulnerabilities/
+https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/
+https://www.anthropic.com/research/glasswing-initial-update
+-->
+
 
 <!--
-PyAI
-Lang Chain
-AI Dev 26
 
 Emerging Patterns in Building GenAI Products
 https://martinfowler.com/articles/gen-ai-patterns/
@@ -216,11 +250,6 @@ https://www.ibm.com/think/architectures/patterns/agentic-ai
 
 https://github.com/torvalds/AudioNoise
 -->
-
-## Tools
-
-* [Goose Agentic Framework](https://goose-docs.ai/)
-* [Google's Open Source, Distributed, AI Runtime](https://github.com/google/ax)
 
 ## Spec-Driven Development
 
@@ -254,15 +283,6 @@ Spec-driven development is used with coding agents, not simple chat bots
 https://docs.tessl.io/introduction-to-tessl/quickstart-skills-docs-rules
 
 https://en.wikipedia.org/wiki/Specification-driven_development
--->
-
-## Mythos
-
-<!--
-https://red.anthropic.com/2026/mythos-preview/
-https://blog.mozilla.org/en/privacy-security/ai-security-zero-day-vulnerabilities/
-https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/
-https://www.anthropic.com/research/glasswing-initial-update
 -->
 
 ## Deep Learning AI and Jet Brains Collaboration
