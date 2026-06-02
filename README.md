@@ -5,12 +5,12 @@
 * [Simon Willison Blog](https://simonwillison.net/)
 * [Agentic AI Foundation](https://aaif.io/blog/)
 * [AI DEV 26 Playlist](https://www.youtube.com/watch?v=fAfuQN0WwFE&list=PLkDaE6sCZn6FcbioyqaUdO_NaNLF2JgcJ)
-* Andrew Ng's [The Batch Newsletter](https://www.deeplearning.ai/the-batch)
-* Ed Zitron newsletters
+* [Andrew Ng's The Batch Newsletter](https://www.deeplearning.ai/the-batch)
+* Ed Zitron newsletter
 
 ## Tools
 
-* [Landscape](https://landscape.aaif.io/)
+* [AAIF Landscape](https://landscape.aaif.io/)
 * [Goose Agentic Framework](https://goose-docs.ai/)
 * [Google's Open Source, Distributed, AI Runtime](https://github.com/google/ax)
 
@@ -208,6 +208,11 @@ https://x.com/Av1dlive/status/2049099215520071921
 https://x.com/cyrilXBT/status/2049093475560301009
 
 
+Emerging Patterns in Building GenAI Products
+https://martinfowler.com/articles/gen-ai-patterns/
+
+Agentic systems diagrams
+https://www.ibm.com/think/architectures/patterns/agentic-ai
 
 Agentic Design Patterns
 https://x.com/aaditsh/status/1974900178957259012
@@ -228,6 +233,9 @@ https://aaif.io/blog/the-tool-abstraction-problem
 
 MCP Is Growing Up
 https://aaif.io/blog/mcp-is-growing-up
+
+
+https://github.com/torvalds/AudioNoise
 -->
 
 <!--
@@ -237,18 +245,6 @@ https://red.anthropic.com/2026/mythos-preview/
 https://blog.mozilla.org/en/privacy-security/ai-security-zero-day-vulnerabilities/
 https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/
 https://www.anthropic.com/research/glasswing-initial-update
--->
-
-
-<!--
-
-Emerging Patterns in Building GenAI Products
-https://martinfowler.com/articles/gen-ai-patterns/
-
-Agentic systems diagrams
-https://www.ibm.com/think/architectures/patterns/agentic-ai
-
-https://github.com/torvalds/AudioNoise
 -->
 
 ## Spec-Driven Development
